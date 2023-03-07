@@ -1,13 +1,19 @@
-import * as React from "react"
+import React from "react"
 
-const IndexPage = () => {
+import Layout from "../components/core/layout"
+
+export default function Index() {
+  
   return (
-    <main>
-      Home page
-    </main>
+    <Layout>
+
+    <div>
+      stronka przykładowa
+    </div>
+
+
+  </Layout>
   )
 }
-
-export default IndexPage
 
 export const Head = () => <title>Home Page</title>
